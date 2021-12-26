@@ -7,7 +7,7 @@ app.listen(3000, ()=>{
 })
 
 app.get('/atendimentos', (req, res) => {
-    res.send('Voce esta na rota de atendimentos')
+    res.send('Voce esta na rota de atendimentos e está realizando um GET')
 })
 
 
